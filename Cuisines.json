@@ -1,0 +1,39 @@
+{
+  "cuisines": [
+    {
+      "name": "Mexican",
+      "primary_influences": ["Spanish", "Native American (Aztec, Maya)"],
+      "key_characteristics": ["Use of corn", "Rich sauces", "Spicy flavors"]
+    },
+    {
+      "name": "Italian",
+      "primary_influences": ["Ancient Roman", "Arab", "New World (Americas)"],
+      "key_characteristics": ["Pasta and pizza", "Olive oil and herbs", "Regional variations"]
+    },
+    {
+      "name": "Chinese",
+      "primary_influences": ["Regional diversity", "Trade (Silk Road)", "Mongolian"],
+      "key_characteristics": ["Rice, noodles, soy", "Diverse flavors", "Cooking techniques"]
+    },
+    {
+      "name": "Indian",
+      "primary_influences": ["Ancient Indian", "Mughal", "British"],
+      "key_characteristics": ["Spices", "Regional diversity", "Vegetarian dishes"]
+    },
+    {
+      "name": "French",
+      "primary_influences": ["Medieval French", "Italian (Renaissance)", "Regional diversity"],
+      "key_characteristics": ["Sophisticated techniques", "Butter and cream", "Famous dishes"]
+    },
+    {
+      "name": "Japanese",
+      "primary_influences": ["Traditional Japanese", "Chinese", "Western (Meiji Restoration)"],
+      "key_characteristics": ["Minimalist presentation", "Sushi and sashimi", "Use of soy sauce"]
+    },
+    {
+      "name": "Thai",
+      "primary_influences": ["Indian", "Chinese", "Neighboring countries"],
+      "key_characteristics": ["Balance of flavors", "Fresh herbs", "Popular dishes"]
+    }
+  ]
+}
