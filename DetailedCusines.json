@@ -1,0 +1,124 @@
+{
+  "DetailedCuisines": [
+    {
+      "name": "Mexican",
+      "primary_influences": ["Spanish", "Native American (Aztec, Maya)", "African"],
+      "key_characteristics": {
+        "dishes": ["Tacos", "Enchiladas", "Tamales", "Mole"],
+        "ingredients": ["Corn", "Beans", "Chili Peppers", "Tomatoes", "Avocado", "Lime"],
+        "flavors": ["Spicy", "Tangy", "Savory"],
+        "techniques": ["Grilling", "Steaming", "Frying"]
+      }
+    },
+    {
+      "name": "Italian",
+      "primary_influences": ["Ancient Roman", "Arab", "New World (Americas)", "French"],
+      "key_characteristics": {
+        "dishes": ["Pasta (Spaghetti, Lasagna)", "Pizza", "Risotto", "Gelato"],
+        "ingredients": ["Olive Oil", "Garlic", "Tomatoes", "Basil", "Cheeses (Parmesan, Mozzarella)"],
+        "flavors": ["Fresh", "Herbal", "Rich"],
+        "techniques": ["Boiling", "Baking", "Sautéing"]
+      }
+    },
+    {
+      "name": "Chinese",
+      "primary_influences": ["Regional Diversity", "Trade (Silk Road)", "Mongolian"],
+      "key_characteristics": {
+        "dishes": ["Dumplings", "Peking Duck", "Sweet and Sour Pork", "Hot Pot"],
+        "ingredients": ["Rice", "Noodles", "Soy Sauce", "Ginger", "Garlic", "Chili Peppers"],
+        "flavors": ["Sweet", "Sour", "Bitter", "Spicy", "Salty"],
+        "techniques": ["Stir-frying", "Steaming", "Braising"]
+      }
+    },
+    {
+      "name": "Indian",
+      "primary_influences": ["Ancient Indian", "Mughal", "British"],
+      "key_characteristics": {
+        "dishes": ["Curry", "Tandoori Chicken", "Biryani", "Dosa"],
+        "ingredients": ["Spices (Turmeric, Cumin, Coriander, Cardamom)", "Lentils", "Rice", "Yogurt"],
+        "flavors": ["Spicy", "Savory", "Aromatic"],
+        "techniques": ["Slow-cooking", "Grilling (Tandoor)", "Stewing"]
+      }
+    },
+    {
+      "name": "French",
+      "primary_influences": ["Medieval French", "Italian (Renaissance)", "Regional Diversity"],
+      "key_characteristics": {
+        "dishes": ["Coq au Vin", "Baguettes", "Croissants", "Ratatouille"],
+        "ingredients": ["Butter", "Cream", "Wine", "Cheese", "Herbs (Thyme, Rosemary)"],
+        "flavors": ["Rich", "Savory", "Delicate"],
+        "techniques": ["Sautéing", "Baking", "Simmering"]
+      }
+    },
+    {
+      "name": "Japanese",
+      "primary_influences": ["Traditional Japanese", "Chinese", "Western (Meiji Restoration)"],
+      "key_characteristics": {
+        "dishes": ["Sushi", "Sashimi", "Ramen", "Tempura"],
+        "ingredients": ["Rice", "Seafood", "Soy Sauce", "Miso", "Seaweed"],
+        "flavors": ["Umami", "Salty", "Savory"],
+        "techniques": ["Minimalist Presentation", "Seasonal Ingredients", "Steaming"]
+      }
+    },
+    {
+      "name": "Thai",
+      "primary_influences": ["Indian", "Chinese", "Neighboring Countries (Laos, Cambodia, Malaysia)"],
+      "key_characteristics": {
+        "dishes": ["Pad Thai", "Green Curry", "Tom Yum Soup", "Som Tum"],
+        "ingredients": ["Rice Noodles", "Coconut Milk", "Lemongrass", "Chili Peppers", "Fish Sauce"],
+        "flavors": ["Sweet", "Sour", "Salty", "Spicy"],
+        "techniques": ["Stir-frying", "Simmering", "Grilling"]
+      }
+    },
+    {
+      "name": "Greek",
+      "primary_influences": ["Ancient Greek", "Ottoman", "Mediterranean"],
+      "key_characteristics": {
+        "dishes": ["Moussaka", "Souvlaki", "Tzatziki", "Spanakopita"],
+        "ingredients": ["Olive Oil", "Feta Cheese", "Lemon", "Oregano", "Yogurt"],
+        "flavors": ["Herbal", "Tangy", "Fresh"],
+        "techniques": ["Grilling", "Baking", "Marinating"]
+      }
+    },
+    {
+      "name": "Spanish",
+      "primary_influences": ["Roman", "Moorish", "Mediterranean"],
+      "key_characteristics": {
+        "dishes": ["Paella", "Tapas", "Gazpacho", "Churros"],
+        "ingredients": ["Olive Oil", "Garlic", "Tomatoes", "Seafood", "Saffron"],
+        "flavors": ["Rich", "Savory", "Smoky"],
+        "techniques": ["Sautéing", "Simmering", "Baking"]
+      }
+    },
+    {
+      "name": "Middle Eastern",
+      "primary_influences": ["Arab", "Persian", "Ottoman"],
+      "key_characteristics": {
+        "dishes": ["Hummus", "Falafel", "Shawarma", "Tabbouleh"],
+        "ingredients": ["Chickpeas", "Lamb", "Olive Oil", "Lemon", "Herbs (Mint, Parsley)"],
+        "flavors": ["Savory", "Herbal", "Tangy"],
+        "techniques": ["Grilling", "Blending", "Baking"]
+      }
+    },
+    {
+      "name": "Korean",
+      "primary_influences": ["Traditional Korean", "Chinese", "Japanese"],
+      "key_characteristics": {
+        "dishes": ["Kimchi", "Bulgogi", "Bibimbap", "Japchae"],
+        "ingredients": ["Rice", "Garlic", "Gochujang", "Sesame Oil", "Soy Sauce"],
+        "flavors": ["Spicy", "Savory", "Fermented"],
+        "techniques": ["Fermenting", "Grilling", "Stir-frying"]
+      }
+    },
+    {
+      "name": "Vietnamese",
+      "primary_influences": ["Traditional Vietnamese", "Chinese", "French"],
+      "key_characteristics": {
+        "dishes": ["Pho", "Banh Mi", "Spring Rolls", "Bun Cha"],
+        "ingredients": ["Rice Noodles", "Fish Sauce", "Lime", "Mint", "Cilantro"],
+        "flavors": ["Fresh", "Herbal", "Umami"],
+        "techniques": ["Simmering", "Grilling", "Fresh Preparation"]
+      }
+    }
+  ]
+}
