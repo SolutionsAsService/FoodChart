@@ -1,0 +1,604 @@
+{
+  "about": "Twelve cuisines, each with the influences that shaped it and the dishes, ingredients, flavors and techniques it is known for. Reorganized from the original Cuisines.json and DetailedCusines.json (2024-07-12). Ingredients and techniques with a parenthetical list in the original are split into one entry each, so they can be compared across cuisines. Influence kinds (roots, trade, migration, empire, colonial rule, forced migration) are editorial judgments, open to correction. No sources are cited yet.",
+  "cuisines": [
+    {
+      "slug": "mexican",
+      "name": "Mexican",
+      "region": "The Americas",
+      "summary": "Built on corn, beans and chili, with rich sauces like mole layered over centuries.",
+      "influences": [
+        {
+          "name": "Indigenous (Aztec, Maya)",
+          "kind": "Roots"
+        },
+        {
+          "name": "Spanish",
+          "kind": "Colonial rule"
+        },
+        {
+          "name": "Enslaved Africans",
+          "kind": "Forced migration and enslavement"
+        }
+      ],
+      "dishes": [
+        "Tacos",
+        "Enchiladas",
+        "Tamales",
+        "Mole"
+      ],
+      "ingredients": [
+        "Corn",
+        "Beans",
+        "Chili peppers",
+        "Tomatoes",
+        "Avocado",
+        "Lime"
+      ],
+      "flavors": [
+        "Spicy",
+        "Tangy",
+        "Savory"
+      ],
+      "techniques": [
+        "Grilling",
+        "Steaming",
+        "Frying"
+      ],
+      "principles": [
+        "Corn at the base of the meal",
+        "Rich, layered sauces"
+      ],
+      "scope": "National cuisine",
+      "sources": []
+    },
+    {
+      "slug": "italian",
+      "name": "Italian",
+      "region": "Europe",
+      "summary": "Olive oil, garlic, tomato and herbs, cooked very differently from one region to the next.",
+      "influences": [
+        {
+          "name": "Ancient Roman",
+          "kind": "Roots"
+        },
+        {
+          "name": "Arab",
+          "kind": "Empire and conquest"
+        },
+        {
+          "name": "New World (the Americas)",
+          "kind": "Trade and exchange"
+        },
+        {
+          "name": "French",
+          "kind": "Trade and exchange"
+        }
+      ],
+      "dishes": [
+        "Pasta (spaghetti, lasagna)",
+        "Pizza",
+        "Risotto",
+        "Gelato"
+      ],
+      "ingredients": [
+        "Olive oil",
+        "Garlic",
+        "Tomatoes",
+        "Basil",
+        "Parmesan",
+        "Mozzarella"
+      ],
+      "flavors": [
+        "Fresh",
+        "Herbal",
+        "Rich"
+      ],
+      "techniques": [
+        "Boiling",
+        "Baking",
+        "Sautéing"
+      ],
+      "principles": [],
+      "scope": "Many regional cuisines",
+      "sources": []
+    },
+    {
+      "slug": "chinese",
+      "name": "Chinese",
+      "region": "East Asia",
+      "summary": "Rice, noodles and soy, with all five basic tastes in play and many regional schools.",
+      "influences": [
+        {
+          "name": "Silk Road trade",
+          "kind": "Trade and exchange"
+        },
+        {
+          "name": "Mongolian",
+          "kind": "Empire and conquest"
+        }
+      ],
+      "dishes": [
+        "Dumplings",
+        "Peking duck",
+        "Sweet and sour pork",
+        "Hot pot"
+      ],
+      "ingredients": [
+        "Rice",
+        "Noodles",
+        "Soy sauce",
+        "Ginger",
+        "Garlic",
+        "Chili peppers"
+      ],
+      "flavors": [
+        "Sweet",
+        "Sour",
+        "Bitter",
+        "Spicy",
+        "Salty"
+      ],
+      "techniques": [
+        "Stir-frying",
+        "Steaming",
+        "Braising"
+      ],
+      "principles": [],
+      "scope": "Many regional cuisines",
+      "sources": []
+    },
+    {
+      "slug": "indian",
+      "name": "Indian",
+      "region": "South Asia",
+      "summary": "Spice blends, lentils and rice, slow-cooked or tandoor-grilled, with a deep vegetarian tradition.",
+      "influences": [
+        {
+          "name": "Ancient Indian",
+          "kind": "Roots"
+        },
+        {
+          "name": "Mughal",
+          "kind": "Empire and conquest"
+        },
+        {
+          "name": "British",
+          "kind": "Colonial rule"
+        }
+      ],
+      "dishes": [
+        "Curry",
+        "Tandoori chicken",
+        "Biryani",
+        "Dosa"
+      ],
+      "ingredients": [
+        "Turmeric",
+        "Cumin",
+        "Coriander",
+        "Cardamom",
+        "Lentils",
+        "Rice",
+        "Yogurt"
+      ],
+      "flavors": [
+        "Spicy",
+        "Savory",
+        "Aromatic"
+      ],
+      "techniques": [
+        "Slow-cooking",
+        "Tandoor grilling",
+        "Stewing"
+      ],
+      "principles": [
+        "Many vegetarian dishes"
+      ],
+      "scope": "Many regional cuisines",
+      "sources": []
+    },
+    {
+      "slug": "french",
+      "name": "French",
+      "region": "Europe",
+      "summary": "Butter, cream and wine, and the kitchen techniques much of Western cooking still trains on.",
+      "influences": [
+        {
+          "name": "Medieval French",
+          "kind": "Roots"
+        },
+        {
+          "name": "Italian (Renaissance)",
+          "kind": "Trade and exchange"
+        }
+      ],
+      "dishes": [
+        "Coq au vin",
+        "Baguette",
+        "Croissant",
+        "Ratatouille"
+      ],
+      "ingredients": [
+        "Butter",
+        "Cream",
+        "Wine",
+        "Cheese",
+        "Thyme",
+        "Rosemary"
+      ],
+      "flavors": [
+        "Rich",
+        "Savory",
+        "Delicate"
+      ],
+      "techniques": [
+        "Sautéing",
+        "Baking",
+        "Simmering"
+      ],
+      "principles": [
+        "Exacting technique"
+      ],
+      "scope": "Many regional cuisines",
+      "sources": []
+    },
+    {
+      "slug": "japanese",
+      "name": "Japanese",
+      "region": "East Asia",
+      "summary": "Rice, seafood, soy and miso, built on umami, the season, and spare presentation.",
+      "influences": [
+        {
+          "name": "Traditional Japanese",
+          "kind": "Roots"
+        },
+        {
+          "name": "Chinese",
+          "kind": "Trade and exchange"
+        },
+        {
+          "name": "Western (Meiji Restoration)",
+          "kind": "Trade and exchange"
+        }
+      ],
+      "dishes": [
+        "Sushi",
+        "Sashimi",
+        "Ramen",
+        "Tempura"
+      ],
+      "ingredients": [
+        "Rice",
+        "Seafood",
+        "Soy sauce",
+        "Miso",
+        "Seaweed"
+      ],
+      "flavors": [
+        "Umami",
+        "Salty",
+        "Savory"
+      ],
+      "techniques": [
+        "Steaming",
+        "Deep-frying",
+        "Raw slicing"
+      ],
+      "principles": [
+        "Minimalist presentation",
+        "Seasonal ingredients"
+      ],
+      "scope": "National cuisine",
+      "sources": []
+    },
+    {
+      "slug": "thai",
+      "name": "Thai",
+      "region": "Southeast Asia",
+      "summary": "Sweet, sour, salty and spicy held in balance, lifted by fresh herbs and coconut.",
+      "influences": [
+        {
+          "name": "Indian",
+          "kind": "Trade and exchange"
+        },
+        {
+          "name": "Chinese",
+          "kind": "Migration"
+        },
+        {
+          "name": "Laos, Cambodia and Malaysia",
+          "kind": "Trade and exchange"
+        }
+      ],
+      "dishes": [
+        "Pad Thai",
+        "Green curry",
+        "Tom yum soup",
+        "Som tum"
+      ],
+      "ingredients": [
+        "Rice noodles",
+        "Coconut milk",
+        "Lemongrass",
+        "Chili peppers",
+        "Fish sauce"
+      ],
+      "flavors": [
+        "Sweet",
+        "Sour",
+        "Salty",
+        "Spicy"
+      ],
+      "techniques": [
+        "Stir-frying",
+        "Simmering",
+        "Grilling"
+      ],
+      "principles": [
+        "A balance of flavors in one dish",
+        "Fresh herbs"
+      ],
+      "scope": "National cuisine",
+      "sources": []
+    },
+    {
+      "slug": "greek",
+      "name": "Greek",
+      "region": "Europe",
+      "summary": "Olive oil, lemon, oregano and feta: bright, herbal Mediterranean cooking.",
+      "influences": [
+        {
+          "name": "Ancient Greek",
+          "kind": "Roots"
+        },
+        {
+          "name": "Ottoman",
+          "kind": "Empire and conquest"
+        },
+        {
+          "name": "Mediterranean",
+          "kind": "Trade and exchange"
+        }
+      ],
+      "dishes": [
+        "Moussaka",
+        "Souvlaki",
+        "Tzatziki",
+        "Spanakopita"
+      ],
+      "ingredients": [
+        "Olive oil",
+        "Feta",
+        "Lemon",
+        "Oregano",
+        "Yogurt"
+      ],
+      "flavors": [
+        "Herbal",
+        "Tangy",
+        "Fresh"
+      ],
+      "techniques": [
+        "Grilling",
+        "Baking",
+        "Marinating"
+      ],
+      "principles": [],
+      "scope": "National cuisine",
+      "sources": []
+    },
+    {
+      "slug": "spanish",
+      "name": "Spanish",
+      "region": "Europe",
+      "summary": "Olive oil, garlic, seafood and saffron, and a habit of eating in small plates.",
+      "influences": [
+        {
+          "name": "Roman",
+          "kind": "Empire and conquest"
+        },
+        {
+          "name": "Moorish",
+          "kind": "Empire and conquest"
+        },
+        {
+          "name": "Mediterranean",
+          "kind": "Trade and exchange"
+        }
+      ],
+      "dishes": [
+        "Paella",
+        "Tapas",
+        "Gazpacho",
+        "Churros"
+      ],
+      "ingredients": [
+        "Olive oil",
+        "Garlic",
+        "Tomatoes",
+        "Seafood",
+        "Saffron"
+      ],
+      "flavors": [
+        "Rich",
+        "Savory",
+        "Smoky"
+      ],
+      "techniques": [
+        "Sautéing",
+        "Simmering",
+        "Baking"
+      ],
+      "principles": [
+        "Small shared plates"
+      ],
+      "scope": "National cuisine",
+      "sources": []
+    },
+    {
+      "slug": "middle-eastern",
+      "name": "Middle Eastern",
+      "region": "West Asia and North Africa",
+      "summary": "Chickpeas, lamb, lemon and fresh herbs. A family of cuisines, from Lebanese and Syrian to Persian and Turkish, grouped here as one.",
+      "influences": [
+        {
+          "name": "Arab",
+          "kind": "Roots"
+        },
+        {
+          "name": "Persian",
+          "kind": "Roots"
+        },
+        {
+          "name": "Ottoman",
+          "kind": "Empire and conquest"
+        }
+      ],
+      "dishes": [
+        "Hummus",
+        "Falafel",
+        "Shawarma",
+        "Tabbouleh"
+      ],
+      "ingredients": [
+        "Chickpeas",
+        "Lamb",
+        "Olive oil",
+        "Lemon",
+        "Mint",
+        "Parsley"
+      ],
+      "flavors": [
+        "Savory",
+        "Herbal",
+        "Tangy"
+      ],
+      "techniques": [
+        "Grilling",
+        "Blending",
+        "Baking"
+      ],
+      "principles": [],
+      "scope": "A family of national cuisines",
+      "sources": []
+    },
+    {
+      "slug": "korean",
+      "name": "Korean",
+      "region": "East Asia",
+      "summary": "Rice, garlic, gochujang and sesame, with fermentation at the center of the table.",
+      "influences": [
+        {
+          "name": "Traditional Korean",
+          "kind": "Roots"
+        },
+        {
+          "name": "Chinese",
+          "kind": "Trade and exchange"
+        },
+        {
+          "name": "Japanese",
+          "kind": "Colonial rule"
+        }
+      ],
+      "dishes": [
+        "Kimchi",
+        "Bulgogi",
+        "Bibimbap",
+        "Japchae"
+      ],
+      "ingredients": [
+        "Rice",
+        "Garlic",
+        "Gochujang",
+        "Sesame oil",
+        "Soy sauce"
+      ],
+      "flavors": [
+        "Spicy",
+        "Savory",
+        "Fermented"
+      ],
+      "techniques": [
+        "Fermenting",
+        "Grilling",
+        "Stir-frying"
+      ],
+      "principles": [
+        "Fermented side dishes at every meal"
+      ],
+      "scope": "National cuisine",
+      "sources": []
+    },
+    {
+      "slug": "vietnamese",
+      "name": "Vietnamese",
+      "region": "Southeast Asia",
+      "summary": "Rice noodles, fish sauce and lime, with handfuls of raw herbs at the table.",
+      "influences": [
+        {
+          "name": "Traditional Vietnamese",
+          "kind": "Roots"
+        },
+        {
+          "name": "Chinese",
+          "kind": "Empire and conquest"
+        },
+        {
+          "name": "French",
+          "kind": "Colonial rule"
+        }
+      ],
+      "dishes": [
+        "Pho",
+        "Banh mi",
+        "Spring rolls",
+        "Bun cha"
+      ],
+      "ingredients": [
+        "Rice noodles",
+        "Fish sauce",
+        "Lime",
+        "Mint",
+        "Cilantro"
+      ],
+      "flavors": [
+        "Fresh",
+        "Herbal",
+        "Umami"
+      ],
+      "techniques": [
+        "Simmering",
+        "Grilling",
+        "Rolling"
+      ],
+      "principles": [
+        "Fresh herbs served raw"
+      ],
+      "scope": "National cuisine",
+      "sources": []
+    }
+  ],
+  "kinds": [
+    "Roots",
+    "Trade and exchange",
+    "Migration",
+    "Empire and conquest",
+    "Colonial rule",
+    "Forced migration and enslavement"
+  ],
+  "not_yet_charted": [
+    "West African",
+    "Ethiopian and Eritrean",
+    "Caribbean",
+    "Peruvian and Andean",
+    "Brazilian",
+    "Indigenous North American",
+    "Pacific Islander",
+    "Filipino",
+    "Indonesian",
+    "Central Asian",
+    "Eastern European",
+    "Nordic"
+  ]
+}

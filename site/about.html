@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About FoodChart: An Open Dataset of 12 World Cuisines</title>
+<meta name="description" content="What FoodChart&#x27;s data holds and leaves out, how its counts work, and how to download the JSON or correct a fact. Open data under the MIT license.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://foodchart.shadw.app/about">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FoodChart">
+<meta property="og:title" content="About FoodChart: An Open Dataset of 12 World Cuisines">
+<meta property="og:description" content="What FoodChart&#x27;s data holds and leaves out, how its counts work, and how to download the JSON or correct a fact. Open data under the MIT license.">
+<meta property="og:url" content="https://foodchart.shadw.app/about">
+<meta property="og:image" content="https://foodchart.shadw.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A nutrition-facts style label reading Food Chart: twelve cuisines, their dishes, ingredients, flavors and techniques.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://foodchart.shadw.app/#site", "url": "https://foodchart.shadw.app/", "name": "FoodChart", "inLanguage": "en-US"}, {"@type": "WebPage", "@id": "https://foodchart.shadw.app/about#page", "url": "https://foodchart.shadw.app/about", "name": "About FoodChart: An Open Dataset of 12 World Cuisines", "description": "What FoodChart's data holds and leaves out, how its counts work, and how to download the JSON or correct a fact. Open data under the MIT license.", "isPartOf": {"@id": "https://foodchart.shadw.app/#site"}, "inLanguage": "en-US"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Chart", "item": "https://foodchart.shadw.app/"}, {"@type": "ListItem", "position": 2, "name": "About", "item": "https://foodchart.shadw.app/about"}]}, {"@type": "Dataset", "name": "FoodChart cuisines", "description": "Twelve cuisines, each with the influences that shaped it and the dishes, ingredients, flavors and techniques it is known for. Reorganized from the original Cuisines.json and DetailedCusines.json (2024-07-12). Ingredients and techniques with a parenthetical list in the original are split into one entry each, so they can be compared across cuisines. Influence kinds (roots, trade, migration, empire, colonial rule, forced migration) are editorial judgments, open to correction. No sources are cited yet.", "url": "https://foodchart.shadw.app/about", "license": "https://opensource.org/licenses/MIT", "creator": {"@type": "Organization", "name": "SolutionsAsService"}, "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://foodchart.shadw.app/data/cuisines.json"}}]}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,800;0,900;1,400&display=swap">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="index.html"><span class="brand-word">Food Chart</span><span class="brand-sub">12 cuisines per chart</span></a>
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        <li><a href="index.html">Chart</a></li>
+        <li><a href="cuisines.html">Cuisines</a></li>
+        <li><a href="ingredients.html">Ingredients</a></li>
+        <li><a href="flavors.html">Flavors</a></li>
+        <li><a href="techniques.html">Techniques</a></li>
+        <li><a href="influences.html">Influences</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<header class="page-head wrap">
+  <p class="kicker">About</p>
+  <h1>About the chart and its data</h1>
+  <p class="lede">FoodChart is a small, open dataset of 12 cuisines and this site, which reads it. It is a starting point for comparing kitchens, not an authority on any of them.</p>
+</header>
+<section class="section wrap prose">
+  <h2>What is in it</h2>
+  <p>For each cuisine: the region, the influences that shaped it, four well-known dishes, its key ingredients, the flavors it is known for, its main techniques, and anything that sets it apart. That is 48 dishes, 45 ingredients, 15 flavors, 18 techniques and 28 influences in all.</p>
+  <h2>What it leaves out</h2>
+  <p>No dietary or allergen information is held. A dish listed here may or may not contain meat, dairy, gluten, nuts or anything else; check a recipe, not this chart.</p>
+  <p>Twelve entries cannot hold the world's cooking. Most of these cuisines are many cuisines: Sichuan and Cantonese cooking differ more than many neighbouring countries do, and "Middle Eastern" here stands for a family that includes Lebanese, Syrian, Palestinian, Turkish and Persian cooking. Each list is the short version a curious cook would start from.</p>
+  <h2>Every count is a count of this chart</h2>
+  <p>When a label says an ingredient is shared by "4 of 12", it means four of the 12 cuisines in this dataset list it. Each entry lists a handful of characteristic ingredients, not everything its cooks use, so an item listed for four cuisines may well be cooked with in many more.</p>
+  <h2>Whose categories these are</h2>
+  <p>The template every label follows (dishes, ingredients, flavors, techniques, influences) and the kinds of influence are this project's way of comparing kitchens, not the way these cuisines describe themselves. They were set by one author from outside them. Where a cook from one of these traditions would draw the lines differently, that is a correction worth sending.</p>
+  <h2>Use the data</h2>
+  <p>The whole dataset is one JSON file, free to use under the MIT license: <a href="data/cuisines.json">data/cuisines.json</a>. Each cuisine has <code>slug</code>, <code>name</code>, <code>region</code>, <code>scope</code>, <code>summary</code>, <code>influences</code> (each a <code>name</code> and a <code>kind</code>), <code>dishes</code>, <code>ingredients</code>, <code>flavors</code>, <code>techniques</code>, <code>principles</code> and <code>sources</code>.</p>
+  <h2 id="sources">Sources</h2>
+  <p>None are cited yet. The facts here are general knowledge as written by the project, and every label says so in its Sources row. If you can point to a cookbook, a food history or a cook's own account for any line, add it to that cuisine's <code>sources</code> list and the label will print it.</p>
+  <h2>How influences are sorted</h2>
+  <p>Each influence carries a kind: the cuisine's own roots, trade and exchange, migration, empire and conquest, colonial rule, or forced migration and enslavement. "Spanish" beside "Mexican" means something different from "Silk Road trade" beside "Chinese", and the kind says how. These are judgments, not settled facts; correct them the same way as anything else.</p>
+  <h2 id="add">Fix something or add a cuisine</h2>
+  <p>Not on the chart yet: West African, Ethiopian and Eritrean, Caribbean, Peruvian and Andean, Brazilian, Indigenous North American, Pacific Islander, Filipino, Indonesian, Central Asian, Eastern European, Nordic. A new cuisine needs the same fields as the others, ideally from someone who cooks it.</p>
+  <p>The source is on GitHub at <a href="https://github.com/SolutionsAsService/FoodChart">SolutionsAsService/FoodChart</a>. Open an issue for a wrong fact, ideally with a source, or send a pull request that edits <code>_src/data/cuisines.json</code>.</p>
+  <h2>Where it came from</h2>
+  <p>The data began in July 2024 as two files, <code>Cuisines.json</code> and <code>DetailedCusines.json</code>. This site merged them into one: the detailed file already held every cuisine and influence in the short one, grouped ingredients such as "Spices (Turmeric, Cumin, Coriander, Cardamom)" were split so they can be compared, and entries that were in the wrong field, such as "Regional diversity" listed as an influence, moved to where they belong.</p>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-word">Food Chart</p>
+      <p>12 cuisines, the influences that shaped them, and what they cook with. Open data under the MIT license.</p>
+    </div>
+    <div>
+      <p class="foot-h">Cuisines</p>
+      <ul class="foot-list"><li><a href="mexican.html">Mexican</a></li><li><a href="french.html">French</a></li><li><a href="greek.html">Greek</a></li><li><a href="italian.html">Italian</a></li><li><a href="spanish.html">Spanish</a></li><li><a href="middle-eastern.html">Middle Eastern</a></li><li><a href="indian.html">Indian</a></li><li><a href="chinese.html">Chinese</a></li><li><a href="japanese.html">Japanese</a></li><li><a href="korean.html">Korean</a></li><li><a href="thai.html">Thai</a></li><li><a href="vietnamese.html">Vietnamese</a></li></ul>
+    </div>
+    <div>
+      <p class="foot-h">Indexes</p>
+      <ul class="foot-list"><li><a href="ingredients.html">Ingredients</a></li><li><a href="flavors.html">Flavors</a></li><li><a href="techniques.html">Techniques</a></li><li><a href="influences.html">Influences</a></li><li><a href="about.html">About the data</a></li><li><a href="data/cuisines.json">Download the JSON</a></li></ul>
+    </div>
+  </div>
+  <p class="wrap foot-fine">* Every count on this site is a count of this chart's 12 cuisines, not of the world's kitchens.</p>
+</footer>
+</body>
+</html>

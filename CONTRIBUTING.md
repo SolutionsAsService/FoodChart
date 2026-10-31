@@ -18,7 +18,7 @@ git clone https://github.com/SolutionsAsService/FoodChart
 cd FoodChart
 ```
 
-See the README for how to run or use what is here.
+See the README for what is here. The data is `_src/data/cuisines.json`; after editing it, run `python _src/build.py` to rebuild the site in `site/`.
 
 ## Making a change
 

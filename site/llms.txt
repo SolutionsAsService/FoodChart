@@ -1,0 +1,23 @@
+# FoodChart
+
+> An open chart of 12 world cuisines: dishes, ingredients, flavors, techniques and influences. Data: https://foodchart.shadw.app/data/cuisines.json (MIT).
+
+- [FoodChart: 12 World Cuisines Charted · Dishes, Ingredients, Flavors](https://foodchart.shadw.app/): An open chart of twelve world cuisines: their dishes, ingredients, flavors, techniques and influences, set out as food labels and compared side by side.
+- [All 12 Cuisines · FoodChart](https://foodchart.shadw.app/cuisines): The 12 cuisines in FoodChart, grouped by region: Mexican, Italian, French, Greek, Spanish, Middle Eastern, Indian, Chinese, Japanese, Korean, Thai and Vietnamese.
+- [About FoodChart: An Open Dataset of 12 World Cuisines](https://foodchart.shadw.app/about): What FoodChart's data holds and leaves out, how its counts work, and how to download the JSON or correct a fact. Open data under the MIT license.
+- [Mexican Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/mexican): Mexican cuisine at a glance: Tacos, Enchiladas, Tamales, its key ingredients, flavors, techniques and influences.
+- [French Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/french): French cuisine at a glance: Coq au vin, Baguette, Croissant, its key ingredients, flavors, techniques and influences.
+- [Greek Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/greek): Greek cuisine at a glance: Moussaka, Souvlaki, Tzatziki, its key ingredients, flavors, techniques and influences.
+- [Italian Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/italian): Italian cuisine at a glance: Pasta (spaghetti, lasagna), Pizza, Risotto, its key ingredients, flavors, techniques and influences.
+- [Spanish Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/spanish): Spanish cuisine at a glance: Paella, Tapas, Gazpacho, its key ingredients, flavors, techniques and influences.
+- [Middle Eastern Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/middle-eastern): Middle Eastern cuisine at a glance: Hummus, Falafel, Shawarma, its key ingredients, flavors, techniques and influences.
+- [Indian Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/indian): Indian cuisine at a glance: Curry, Tandoori chicken, Biryani, its key ingredients, flavors, techniques and influences.
+- [Chinese Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/chinese): Chinese cuisine at a glance: Dumplings, Peking duck, Sweet and sour pork, its key ingredients, flavors, techniques and influences.
+- [Japanese Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/japanese): Japanese cuisine at a glance: Sushi, Sashimi, Ramen, its key ingredients, flavors, techniques and influences.
+- [Korean Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/korean): Korean cuisine at a glance: Kimchi, Bulgogi, Bibimbap, its key ingredients, flavors, techniques and influences.
+- [Thai Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/thai): Thai cuisine at a glance: Pad Thai, Green curry, Tom yum soup, its key ingredients, flavors, techniques and influences.
+- [Vietnamese Cuisine: Dishes, Ingredients, Flavors and Influences · FoodChart](https://foodchart.shadw.app/vietnamese): Vietnamese cuisine at a glance: Pho, Banh mi, Spring rolls, its key ingredients, flavors, techniques and influences.
+- [Ingredients Across 12 World Cuisines · FoodChart](https://foodchart.shadw.app/ingredients): Which of 12 world cuisines share each ingredient: an index of 45 ingredients from Mexican to Vietnamese, with the cuisines that use each one.
+- [Flavors Across 12 World Cuisines · FoodChart](https://foodchart.shadw.app/flavors): Which of 12 world cuisines share each flavor: an index of 15 flavors from Mexican to Vietnamese, with the cuisines that use each one.
+- [Techniques Across 12 World Cuisines · FoodChart](https://foodchart.shadw.app/techniques): Which of 12 world cuisines share each technique: an index of 18 techniques from Mexican to Vietnamese, with the cuisines that use each one.
+- [Influences Across 12 World Cuisines · FoodChart](https://foodchart.shadw.app/influences): Which of 12 world cuisines share each influence: an index of 28 influences from Mexican to Vietnamese, with the cuisines that use each one.
