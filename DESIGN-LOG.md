@@ -350,3 +350,10 @@ The criterion held: MAYA forced every move to name both poles, and the strongest
 - [x] Anchor Ledger complete; graph classes recorded as text (no renderer)
 - [x] Double-loop paragraph written (§5)
 - [ ] Final reply states mode, tools, stop conditions and everything skipped (in the reply)
+
+
+## Human grade
+- **Grade:** B
+- **Date:** 2026-10-31
+- **The person's words, verbatim:** "gonna give that last one for food chart a b btw because no clear bold graphic on landing the chart is cut off but good design on chart"
+- **What the grade most likely rewards or punishes:** it rewards the chart and label design itself (M2, the flavor matrix) and punishes the landing: M3 measured only the chart's *top* (heading at y = 386 px, grid at 497 px on a 1280 x 768 screen), never its *bottom*, so the 12-row chart ran past the fold on desktop and scrolls sideways inside its own box on a phone; and the hero is a headline with no bold graphic. Every panel seat, including Krug and Cairo, accepted "chart on the first screen" from that top-edge number. The lesson is recorded in the DADA skill (First screen rule) and in dada-lessons.
